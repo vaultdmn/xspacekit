@@ -1,0 +1,48 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "xspacekit",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#1DA1F2",
+    "light": "#33A1F2",
+    "dark": "#0d8ecf",
+    "background": {
+      "light": "#FFFFFF",
+      "dark": "#0f172a"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/xspacekit/xspacekit"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "docs/introduction",
+        "docs/quickstart"
+      ]
+    },
+    {
+      "group": "Core Concepts",
+      "pages": [
+        "docs/authentication",
+        "docs/spaces-lifecycle",
+        "docs/webrtc-janus"
+      ]
+    },
+    {
+      "group": "Reference",
+      "pages": [
+        "docs/cli",
+        "docs/protocol-notes"
+      ]
+    }
+  ]
+}

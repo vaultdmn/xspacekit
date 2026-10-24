@@ -1,0 +1,29 @@
+# HAR captures / test artifacts
+captures/
+*.har
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Test/lint caches
+.pytest_cache/
+.ruff_cache/
+
+# Packaging build outputs
+build/
+dist/
+*.egg-info/
+src/*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local experimentation / temporary repos
+_tmp_*/
+
+# Large offline request dumps used during development
+x_spaces_network_requests
